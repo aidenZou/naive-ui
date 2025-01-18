@@ -56,6 +56,10 @@ export const configProviderProps = {
     type: Boolean,
     default: undefined
   },
+  defaultDataTableColumnResizable: {
+    type: Boolean,
+    default: undefined
+  },
   // deprecated
   as: {
     type: String as PropType<string | undefined>,
@@ -158,6 +162,9 @@ export default defineComponent({
       props.inlineThemeDisabled || NConfigProvider?.inlineThemeDisabled
     const preflightStyleDisabled =
       props.preflightStyleDisabled || NConfigProvider?.preflightStyleDisabled
+    const defaultDataTableColumnResizable =
+      props.defaultDataTableColumnResizable ||
+      NConfigProvider?.defaultDataTableColumnResizable
     const mergedThemeHashRef = computed(() => {
       const { value: theme } = mergedThemeRef
       const { value: mergedThemeOverrides } = mergedThemeOverridesRef
@@ -214,7 +221,8 @@ export default defineComponent({
       mergedThemeRef,
       mergedThemeOverridesRef,
       inlineThemeDisabled: inlineThemeDisabled || false,
-      preflightStyleDisabled: preflightStyleDisabled || false
+      preflightStyleDisabled: preflightStyleDisabled || false,
+      defaultDataTableColumnResizable: defaultDataTableColumnResizable || false
     })
     return {
       mergedClsPrefix: mergedClsPrefixRef,

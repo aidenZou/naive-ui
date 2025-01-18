@@ -31,6 +31,7 @@ import {
   type ColumnKey
 } from '../interface'
 import SelectionMenu from './SelectionMenu'
+import { useConfig } from '../../../_mixins'
 
 function renderTitle (
   column: TableExpandColumn | TableBaseColumn | TableColumnGroup
@@ -73,6 +74,7 @@ export default defineComponent({
       doCheckAll
       // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     } = inject(dataTableInjectionKey)!
+    const { defaultDataTableColumnResizable } = useConfig()
     const cellElsRef = ref<Record<ColumnKey, HTMLTableCellElement>>({})
     function getCellActualWidth (key: ColumnKey): number | undefined {
       const element = cellElsRef.value[key]
@@ -145,6 +147,7 @@ export default defineComponent({
       mergedTheme: mergedThemeRef,
       checkOptions: checkOptionsRef,
       mergedTableLayout: mergedTableLayoutRef,
+      defaultDataTableColumnResizable,
       headerCheckboxDisabled: headerCheckboxDisabledRef,
       handleCheckboxUpdateChecked,
       handleColHeaderClick,
@@ -171,6 +174,7 @@ export default defineComponent({
       mergedTableLayout,
       headerCheckboxDisabled,
       mergedSortState,
+      defaultDataTableColumnResizable,
       handleColHeaderClick,
       handleCheckboxUpdateChecked,
       handleColumnResizeStart,
@@ -247,7 +251,9 @@ export default defineComponent({
                           options={column.filterOptions}
                         />
                       ) : null}
-                      {isColumnResizable(column) ? (
+                      {isColumnResizable(column, {
+                        defaultDataTableColumnResizable
+                      }) ? (
                         <ResizeButton
                           onResizeStart={() => {
                             handleColumnResizeStart(column as TableBaseColumn)
@@ -259,7 +265,7 @@ export default defineComponent({
                             )
                           }}
                         />
-                      ) : null}
+                          ) : null}
                     </>
                   )
                 }

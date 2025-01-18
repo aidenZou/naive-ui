@@ -28,6 +28,7 @@ export default function useConfig (
     mergedBreakpointsRef: Ref<Breakpoints> | undefined
     mergedComponentPropsRef: Ref<GlobalComponentConfig | undefined> | undefined
     namespaceRef: ComputedRef<string | undefined>
+    defaultDataTableColumnResizable: boolean | undefined
   } {
   const NConfigProvider = inject(configProviderInjectionKey, null)
   return {
@@ -48,7 +49,9 @@ export default function useConfig (
     mergedClsPrefixRef: NConfigProvider
       ? NConfigProvider.mergedClsPrefixRef
       : shallowRef(defaultClsPrefix),
-    namespaceRef: computed(() => NConfigProvider?.mergedNamespaceRef.value)
+    namespaceRef: computed(() => NConfigProvider?.mergedNamespaceRef.value),
+    defaultDataTableColumnResizable:
+      NConfigProvider?.defaultDataTableColumnResizable
   }
 }
 

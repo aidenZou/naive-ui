@@ -124,9 +124,17 @@ export function isColumnSortable (column: TableColumn): boolean {
   return !!column.sorter
 }
 
-export function isColumnResizable (column: TableColumn): boolean {
+export function isColumnResizable (
+  column: TableColumn,
+  config?: { defaultDataTableColumnResizable?: boolean }
+): boolean {
   if ('children' in column && !!column.children.length) return false
-  return !!column.resizable
+
+  if (column.resizable !== null && column.resizable !== undefined) {
+    return !!column.resizable
+  }
+
+  return !!config?.defaultDataTableColumnResizable
 }
 
 export function isColumnFilterable (column: TableColumn): boolean {
