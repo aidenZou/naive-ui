@@ -222,7 +222,7 @@ export default defineComponent({
       mergedThemeOverridesRef,
       inlineThemeDisabled: inlineThemeDisabled || false,
       preflightStyleDisabled: preflightStyleDisabled || false,
-      defaultDataTableColumnResizable: defaultDataTableColumnResizable || false
+      defaultDataTableColumnResizable: defaultDataTableColumnResizable ?? false
     })
     return {
       mergedClsPrefix: mergedClsPrefixRef,

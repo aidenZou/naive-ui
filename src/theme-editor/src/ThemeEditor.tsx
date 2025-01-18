@@ -198,7 +198,10 @@ export default defineComponent({
   },
   render () {
     return (
-      <NConfigProvider themeOverrides={this.overrides}>
+      <NConfigProvider
+        themeOverrides={this.overrides}
+        defaultDataTableColumnResizable={false}
+      >
         {{
           default: () => [
             <NPopover
