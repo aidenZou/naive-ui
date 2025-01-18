@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { defineComponent, h, ref, VNodeChild } from 'vue'
-import { NIcon, MentionOption, MentionInst } from 'naive-ui'
+import { NIcon, MentionOption, MentionInst } from '@q-labs/naive-ui-plus'
 import { HomeOutline as HomeIcon } from '@vicons/ionicons5'
 
 export default defineComponent({

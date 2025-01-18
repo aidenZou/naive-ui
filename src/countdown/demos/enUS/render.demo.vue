@@ -19,7 +19,7 @@ Do whatever you want.
 
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
-import { CountdownProps } from 'naive-ui'
+import { CountdownProps } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

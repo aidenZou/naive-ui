@@ -63,7 +63,7 @@ Sometimes you might want to put the collapsed sidebar on the right.
 </template>
 <script lang="ts">
 import { h, defineComponent, Component } from 'vue'
-import { NIcon } from 'naive-ui'
+import { NIcon } from '@q-labs/naive-ui-plus'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,

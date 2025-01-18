@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useDialogReactiveList } from 'naive-ui'
+import { useDialogReactiveList } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

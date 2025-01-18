@@ -12,7 +12,7 @@ I think user is smart enough that they know if nothing happens after mask is cli
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage, useDialog } from 'naive-ui'
+import { useMessage, useDialog } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -21,7 +21,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { IosAirplane } from '@vicons/ionicons4'
-import { unstableAlertRtl } from 'naive-ui'
+import { unstableAlertRtl } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   components: { IosAirplane },

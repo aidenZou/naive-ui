@@ -40,7 +40,7 @@
 
 <script lang="ts">
 import { ref } from 'vue'
-import { NSpace, NButton, NModal, NImage } from 'naive-ui'
+import { NSpace, NButton, NModal, NImage } from '@q-labs/naive-ui-plus'
 
 export default {
   name: 'App',

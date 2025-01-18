@@ -20,7 +20,7 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import type { DataTableColumns } from 'naive-ui'
+import type { DataTableColumns } from '@q-labs/naive-ui-plus'
 
 const columns: DataTableColumns = [
   {

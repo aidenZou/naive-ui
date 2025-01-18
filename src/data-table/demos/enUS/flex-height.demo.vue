@@ -26,7 +26,7 @@ If you want to set the overall height of the table, you can set the `flex-height
 
 <script lang="ts">
 import { h, defineComponent, ref } from 'vue'
-import type { DataTableColumns } from 'naive-ui'
+import type { DataTableColumns } from '@q-labs/naive-ui-plus'
 
 type RowData = {
   key: number

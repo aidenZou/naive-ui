@@ -16,7 +16,7 @@ For example, you can change non-leaf key's default behavior to `'toggleExpand'` 
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { TreeOverrideNodeClickBehavior } from 'naive-ui'
+import { TreeOverrideNodeClickBehavior } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

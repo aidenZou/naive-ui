@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { h, defineComponent } from 'vue'
-import { useNotification, useMessage, NButton, NAvatar } from 'naive-ui'
+import { useNotification, useMessage, NButton, NAvatar } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

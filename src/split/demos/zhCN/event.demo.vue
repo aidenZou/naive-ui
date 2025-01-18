@@ -20,7 +20,7 @@
 </template>
 
 <script lang="ts">
-import { useMessage } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

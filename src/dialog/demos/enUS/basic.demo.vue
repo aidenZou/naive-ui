@@ -20,7 +20,7 @@ Inject `dialog` to create a dialog.
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage, useDialog } from 'naive-ui'
+import { useMessage, useDialog } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

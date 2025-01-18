@@ -104,7 +104,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
-import { unstableThingRtl, unstableRowRtl } from 'naive-ui'
+import { unstableThingRtl, unstableRowRtl } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   components: {

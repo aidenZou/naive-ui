@@ -18,7 +18,7 @@ As you can see, prefix, label, and suffix all have render functions.
 
 <script lang="ts">
 import { h, defineComponent, ref } from 'vue'
-import { NButton, TreeOption } from 'naive-ui'
+import { NButton, TreeOption } from '@q-labs/naive-ui-plus'
 import { repeat } from 'seemly'
 
 function createData (level = 4, baseKey = ''): TreeOption[] | undefined {

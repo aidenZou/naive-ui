@@ -39,7 +39,7 @@ You can replace a dynamic-tags input or trigger element with another component.
 
 <script lang="ts">
 import { defineComponent, ref, computed, watch, nextTick } from 'vue'
-import { AutoCompleteInst } from 'naive-ui'
+import { AutoCompleteInst } from '@q-labs/naive-ui-plus'
 import Add from '@vicons/ionicons5/Add'
 
 export default defineComponent({

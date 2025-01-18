@@ -32,7 +32,7 @@
 </template>
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { useMessage, LogInst } from 'naive-ui'
+import { useMessage, LogInst } from '@q-labs/naive-ui-plus'
 
 function log () {
   const l: string[] = []

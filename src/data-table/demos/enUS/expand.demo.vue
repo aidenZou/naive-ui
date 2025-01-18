@@ -16,7 +16,7 @@ Note that: Expanded rows are not included in the `index` of `render`.
 
 <script lang="ts">
 import { h, defineComponent } from 'vue'
-import { NTag, NButton, useMessage, DataTableColumns } from 'naive-ui'
+import { NTag, NButton, useMessage, DataTableColumns } from '@q-labs/naive-ui-plus'
 
 type RowData = {
   key: number

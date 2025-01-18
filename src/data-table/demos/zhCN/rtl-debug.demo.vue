@@ -32,7 +32,7 @@ import {
   DataTableBaseColumn,
   DataTableFilterState,
   unstableDataTableRtl
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 
 type Row = {
   key: number

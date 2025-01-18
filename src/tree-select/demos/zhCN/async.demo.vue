@@ -37,7 +37,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { TreeSelectOption } from 'naive-ui'
+import { TreeSelectOption } from '@q-labs/naive-ui-plus'
 
 function getChildren (option: TreeSelectOption) {
   const children = []

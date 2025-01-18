@@ -9,7 +9,7 @@
 
 <script lang="ts">
 import { h, defineComponent, VNode } from 'vue'
-import { NTooltip, SelectGroupOption, SelectOption } from 'naive-ui'
+import { NTooltip, SelectGroupOption, SelectOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -20,7 +20,7 @@
 
 <script lang="ts">
 import { h, defineComponent } from 'vue'
-import { NInput } from 'naive-ui'
+import { NInput } from '@q-labs/naive-ui-plus'
 
 const showInput = defineComponent({
   render () {

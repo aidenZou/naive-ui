@@ -17,7 +17,7 @@ module.exports = {
       process.env.NODE_ENV !== 'production'
         ? [
             {
-              find: 'naive-ui',
+              find: '@q-labs/naive-ui-plus',
               replacement: path.resolve(__dirname, './src')
             }
           ]

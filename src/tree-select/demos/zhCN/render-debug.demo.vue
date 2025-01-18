@@ -25,7 +25,7 @@ import {
   TreeSelectRenderLabel,
   TreeSelectRenderTag,
   NTag
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

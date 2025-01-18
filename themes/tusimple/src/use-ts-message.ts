@@ -1,9 +1,9 @@
-import { useMessage as _useMessage } from 'naive-ui'
+import { useMessage as _useMessage } from '@q-labs/naive-ui-plus'
 import type {
   MessageOptions,
   MessageReactive,
   MessageApi
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 import { icons } from './icons'
 
 export interface ExtendedApi {

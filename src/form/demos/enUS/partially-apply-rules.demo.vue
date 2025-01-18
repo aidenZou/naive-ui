@@ -29,7 +29,7 @@ During the validation, you may not want to validate all items. You can use the s
 </template>
 
 <script lang="ts">
-import { FormInst } from 'naive-ui'
+import { FormInst } from '@q-labs/naive-ui-plus'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

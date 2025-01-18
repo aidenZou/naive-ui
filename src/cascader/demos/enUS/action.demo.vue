@@ -21,7 +21,7 @@ Is there anybody who needs slots on a cascader menu?
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { CascaderOption } from 'naive-ui'
+import { CascaderOption } from '@q-labs/naive-ui-plus'
 import Flash16Regular from '@vicons/fluent/Flash16Regular'
 
 function getOptions (depth = 2, iterator = 1, prefix = '') {

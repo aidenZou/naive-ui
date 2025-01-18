@@ -1,9 +1,9 @@
-import { useDialog as _useDialog } from 'naive-ui'
+import { useDialog as _useDialog } from '@q-labs/naive-ui-plus'
 import type {
   DialogOptions,
   DialogReactive,
   DialogApi
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 import { icons } from './icons'
 
 export interface ExtendedApi {

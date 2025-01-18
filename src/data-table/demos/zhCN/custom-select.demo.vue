@@ -17,7 +17,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { repeat } from 'seemly'
-import { DataTableColumns } from 'naive-ui'
+import { DataTableColumns } from '@q-labs/naive-ui-plus'
 
 type RowData = {
   name: string

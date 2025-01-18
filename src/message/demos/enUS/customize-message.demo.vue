@@ -12,8 +12,8 @@ Some users said that they want to use alert as message.
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NAlert, useMessage } from 'naive-ui'
-import type { MessageRenderMessage } from 'naive-ui'
+import { NAlert, useMessage } from '@q-labs/naive-ui-plus'
+import type { MessageRenderMessage } from '@q-labs/naive-ui-plus'
 
 const renderMessage: MessageRenderMessage = (props) => {
   const { type } = props

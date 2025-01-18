@@ -18,7 +18,7 @@
 ```
 
 ```js
-import { useMessage } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
 import { defineComponent } from 'vue'
 
 // content
@@ -156,7 +156,7 @@ type MessageRenderMessage = (props: {
 <template>...</template>
 
 <script>
-  import { useMessage } from 'naive-ui'
+  import { useMessage } from '@q-labs/naive-ui-plus'
   import { defineComponent } from 'vue'
 
   // content

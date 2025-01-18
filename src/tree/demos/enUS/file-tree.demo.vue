@@ -16,7 +16,7 @@ Use `on-update:expanded-keys` to change the prefix icon style of the node in dif
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { useMessage, NIcon, TreeOption } from 'naive-ui'
+import { useMessage, NIcon, TreeOption } from '@q-labs/naive-ui-plus'
 import {
   Folder,
   FolderOpenOutline,

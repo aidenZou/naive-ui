@@ -12,7 +12,7 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { useMessage, NAvatar, NText } from 'naive-ui'
+import { useMessage, NAvatar, NText } from '@q-labs/naive-ui-plus'
 
 function renderCustomHeader () {
   return h(

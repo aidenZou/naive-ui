@@ -15,7 +15,7 @@ Load options asynchronously.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { MentionOption } from 'naive-ui'
+import { MentionOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

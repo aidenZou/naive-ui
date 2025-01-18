@@ -32,7 +32,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

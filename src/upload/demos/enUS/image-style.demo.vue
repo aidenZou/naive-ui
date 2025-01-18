@@ -17,8 +17,8 @@ Thumbnails can be created using your own custom method via the `create-thumbnail
 
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
-import { useMessage } from 'naive-ui'
-import type { UploadFileInfo } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
+import type { UploadFileInfo } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

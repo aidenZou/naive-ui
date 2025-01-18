@@ -16,7 +16,7 @@ Add some actions.
 <script lang="ts">
 import { h, defineComponent, ref } from 'vue'
 import { repeat } from 'seemly'
-import { NButton, TreeOption } from 'naive-ui'
+import { NButton, TreeOption } from '@q-labs/naive-ui-plus'
 
 function createData (level = 4, baseKey = ''): TreeOption[] | undefined {
   if (!level) return undefined

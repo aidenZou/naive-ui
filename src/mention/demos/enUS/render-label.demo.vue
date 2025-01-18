@@ -10,7 +10,7 @@ If the `option.label` property is not a string, the `option.value` property will
 
 <script lang="ts">
 import { defineComponent, h, VNodeChild } from 'vue'
-import { NAvatar, MentionOption } from 'naive-ui'
+import { NAvatar, MentionOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

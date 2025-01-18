@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
-import { useMessage, NButton, unstableMessageRtl } from 'naive-ui'
+import { useMessage, NButton, unstableMessageRtl } from '@q-labs/naive-ui-plus'
 
 const MessageButton = defineComponent({
   setup () {

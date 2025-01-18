@@ -59,7 +59,7 @@ import {
   FormValidationError,
   useMessage,
   FormRules
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 
 interface ModelType {
   age: string | null

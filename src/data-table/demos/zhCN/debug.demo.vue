@@ -22,8 +22,8 @@
 
 <script lang="ts">
 import { h, defineComponent, ref } from 'vue'
-import { NButton, useMessage, PaginationProps } from 'naive-ui'
-import type { DataTableColumns } from 'naive-ui'
+import { NButton, useMessage, PaginationProps } from '@q-labs/naive-ui-plus'
+import type { DataTableColumns } from '@q-labs/naive-ui-plus'
 
 type Song = {
   no: number

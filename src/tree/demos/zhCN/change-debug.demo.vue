@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts">
-import { NTree, NButton } from 'naive-ui'
+import { NTree, NButton } from '@q-labs/naive-ui-plus'
 import { ref, defineComponent } from 'vue'
 export default defineComponent({
   name: 'App',

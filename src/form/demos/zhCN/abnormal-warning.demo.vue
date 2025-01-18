@@ -18,7 +18,7 @@
 </template>
 
 <script lang="ts">
-import { FormInst, FormItemRule, FormRules, useMessage } from 'naive-ui'
+import { FormInst, FormItemRule, FormRules, useMessage } from '@q-labs/naive-ui-plus'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

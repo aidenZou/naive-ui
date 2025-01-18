@@ -18,7 +18,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { useMessage, MessageReactive, MessageType } from 'naive-ui'
+import { useMessage, MessageReactive, MessageType } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

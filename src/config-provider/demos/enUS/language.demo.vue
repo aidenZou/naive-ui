@@ -34,8 +34,8 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { zhCN, dateZhCN } from 'naive-ui'
-import type { NLocale, NDateLocale } from 'naive-ui'
+import { zhCN, dateZhCN } from '@q-labs/naive-ui-plus'
+import type { NLocale, NDateLocale } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

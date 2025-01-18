@@ -10,8 +10,8 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import type { MenuOption } from 'naive-ui'
-import { NEllipsis } from 'naive-ui'
+import type { MenuOption } from '@q-labs/naive-ui-plus'
+import { NEllipsis } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

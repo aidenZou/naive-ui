@@ -25,7 +25,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableCollapseTransitionRtl } from 'naive-ui'
+import { unstableCollapseTransitionRtl } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

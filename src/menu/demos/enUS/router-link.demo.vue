@@ -10,8 +10,8 @@ Usually you can use vue-router here to accomplish routing. You can render `label
 
 <script lang="ts">
 import { defineComponent, h, Component } from 'vue'
-import { NIcon } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NIcon } from '@q-labs/naive-ui-plus'
+import type { MenuOption } from '@q-labs/naive-ui-plus'
 import { RouterLink } from 'vue-router'
 import {
   LaptopOutline as WorkIcon,

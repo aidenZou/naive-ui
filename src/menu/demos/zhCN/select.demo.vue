@@ -10,8 +10,8 @@
 
 <script lang="ts">
 import { defineComponent, h, Component } from 'vue'
-import { NIcon, useMessage } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NIcon, useMessage } from '@q-labs/naive-ui-plus'
+import type { MenuOption } from '@q-labs/naive-ui-plus'
 import { RouterLink } from 'vue-router'
 import {
   BookOutline as BookIcon,

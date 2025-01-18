@@ -42,7 +42,7 @@ components: {
 </script>`
 
 const mainJs = `import { createApp } from "vue";
-import naive from "naive-ui";
+import naive from "@q-labs/naive-ui-plus";
 import App from "./App.vue";
 
 const app = createApp(App);
@@ -70,7 +70,7 @@ export function getCodeSandboxParams (code) {
             ...getDeps(code),
             vue: 'latest',
             'vue-router': 'latest',
-            'naive-ui': 'latest'
+            '@q-labs/naive-ui-plus': 'latest'
           },
           devDependencies: {
             '@vue/cli-plugin-babel': '~4.5.0',

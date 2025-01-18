@@ -2,7 +2,7 @@
 
 import { h } from 'vue'
 import { RouterLink } from 'vue-router'
-import { NTag, NSpace } from 'naive-ui'
+import { NTag, NSpace } from '@q-labs/naive-ui-plus'
 
 export const renderMenuLabel = (option) => {
   if (!('path' in option) || option.label === '--Debug') {

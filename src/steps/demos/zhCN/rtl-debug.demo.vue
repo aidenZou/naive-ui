@@ -68,7 +68,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableStepsRtl, StepsProps } from 'naive-ui'
+import { unstableStepsRtl, StepsProps } from '@q-labs/naive-ui-plus'
 import { MdArrowRoundBack, MdArrowRoundForward } from '@vicons/ionicons4'
 
 export default defineComponent({

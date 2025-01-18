@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import { defineComponent, h, VNodeChild } from 'vue'
-import { NIcon, SelectOption, SelectGroupOption } from 'naive-ui'
+import { NIcon, SelectOption, SelectGroupOption } from '@q-labs/naive-ui-plus'
 import { MdMusicalNote as MusicIcon } from '@vicons/ionicons4'
 
 export default defineComponent({

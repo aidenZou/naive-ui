@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { FormInst } from 'naive-ui'
+import { FormInst } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

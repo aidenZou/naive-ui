@@ -1,5 +1,5 @@
 import { changeColor } from 'seemly'
-import { c, cB, cE, cM, cNotM } from 'naive-ui'
+import { c, cB, cE, cM, cNotM } from '@q-labs/naive-ui-plus'
 
 export function mountSvgDefs (): void {
   if (document.getElementById('naive-ui/tusimple/svg-defs')) return

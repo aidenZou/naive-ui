@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
-import { NAvatar, TransferRenderTargetLabel } from 'naive-ui'
+import { NAvatar, TransferRenderTargetLabel } from '@q-labs/naive-ui-plus'
 
 const options = [
   {

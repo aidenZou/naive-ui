@@ -15,7 +15,7 @@ import {
   NButton,
   NSpace,
   NotificationPlacement
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 
 const PlacementButtons = defineComponent({
   props: {

@@ -31,7 +31,7 @@ Set the way to show checked options. `all` means showing all checked nodes. `par
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { CascaderOption } from 'naive-ui'
+import { CascaderOption } from '@q-labs/naive-ui-plus'
 
 function getOptions (depth = 4, iterator = 1, prefix = '') {
   const length = 3

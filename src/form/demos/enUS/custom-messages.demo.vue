@@ -27,7 +27,7 @@ You can define custom messages that are used instead of the standard ones.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { FormInst, useMessage } from 'naive-ui'
+import { FormInst, useMessage } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

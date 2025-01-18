@@ -23,7 +23,7 @@ Naive UI 提供 `n-element` 组件，参考 [Element](../components/element)。
 
 ```js
 import { defineComponent, ref } from 'vue'
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

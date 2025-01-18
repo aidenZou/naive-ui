@@ -33,7 +33,7 @@ Remeber to use `default-width` or `default-height` with `resizable`.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { DrawerPlacement } from 'naive-ui'
+import type { DrawerPlacement } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -15,7 +15,7 @@ Give the tag a little color.
 
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
-import { NTag, SelectRenderTag } from 'naive-ui'
+import { NTag, SelectRenderTag } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -21,7 +21,7 @@ Set `draggable` and write bunch of codes to make drag & drop work.
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { repeat } from 'seemly'
-import { TreeOption, TreeDropInfo } from 'naive-ui'
+import { TreeOption, TreeDropInfo } from '@q-labs/naive-ui-plus'
 
 function createData (level = 4, baseKey = ''): TreeOption[] | undefined {
   if (!level) return undefined

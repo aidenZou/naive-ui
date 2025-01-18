@@ -36,7 +36,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { VirtualListInst } from 'naive-ui'
+import { VirtualListInst } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

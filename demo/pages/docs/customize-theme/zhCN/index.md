@@ -23,7 +23,7 @@ Naive UI 通过使用 `n-config-provider` 调整主题。
 
 <script>
   import { defineComponent } from 'vue'
-  import { darkTheme } from 'naive-ui'
+  import { darkTheme } from '@q-labs/naive-ui-plus'
 
   export default defineComponent({
     setup() {
@@ -51,11 +51,11 @@ Naive UI 通过使用 `n-config-provider` 调整主题。
 
 ```html
 <script>
-  import { NConfigProvider } from 'naive-ui'
+  import { NConfigProvider } from '@q-labs/naive-ui-plus'
 
   /**
    * js 文件下使用这个做类型提示
-   * @type import('naive-ui').GlobalThemeOverrides
+   * @type import('@q-labs/naive-ui-plus').GlobalThemeOverrides
    */
   const themeOverrides = {
     common: {
@@ -90,7 +90,7 @@ Naive UI 通过使用 `n-config-provider` 调整主题。
 
 ```html
 <script lang="ts">
-  import { NConfigProvider, GlobalThemeOverrides } from 'naive-ui'
+  import { NConfigProvider, GlobalThemeOverrides } from '@q-labs/naive-ui-plus'
 
   const themeOverrides: GlobalThemeOverrides = {
     common: {
@@ -117,7 +117,7 @@ Naive UI 通过使用 `n-config-provider` 调整主题。
 
 ```html
 <script lang="ts">
-  import { SelectProps, ButtonProps } from 'naive-ui'
+  import { SelectProps, ButtonProps } from '@q-labs/naive-ui-plus'
 
   type SelectThemeOverrides = NonNullable<SelectProps['themeOverrides']>
   type ButtonThemeOverrides = NonNullable<ButtonProps['themeOverrides']>
@@ -156,10 +156,10 @@ Naive UI 通过使用 `n-config-provider` 调整主题。
 
 ```html
 <script>
-  import { NConfigProvider, darkTheme } from 'naive-ui'
+  import { NConfigProvider, darkTheme } from '@q-labs/naive-ui-plus'
 
   /**
-   * @type import('naive-ui').GlobalThemeOverrides
+   * @type import('@q-labs/naive-ui-plus').GlobalThemeOverrides
    */
   const lightThemeOverrides = {
     common: {
@@ -199,7 +199,7 @@ peers 相关的主题变量还没有暴露，使用 `GlobalThemeOverrides` 可�
 
 ```html
 <script lang="ts">
-  import { NConfigProvider, GlobalThemeOverrides } from 'naive-ui'
+  import { NConfigProvider, GlobalThemeOverrides } from '@q-labs/naive-ui-plus'
 
   const themeOverrides: GlobalThemeOverrides = {
     Select: {
@@ -268,7 +268,7 @@ naive-ui 提供主题编辑器帮助你方便的编辑主题并导出对应配�
 
 <script>
   import { defineComponent } from 'vue'
-  import { NThemeEditor } from 'naive-ui'
+  import { NThemeEditor } from '@q-labs/naive-ui-plus'
 
   export default defineComponent({
     components: {

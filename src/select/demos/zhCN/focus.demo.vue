@@ -13,7 +13,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { SelectInst } from 'naive-ui'
+import { SelectInst } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

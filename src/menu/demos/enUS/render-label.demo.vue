@@ -37,8 +37,8 @@ The `render-label`, `render-icon`, `expand-icon` can be used to batch render men
 
 <script lang="ts">
 import { h, ref, defineComponent } from 'vue'
-import { NIcon } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NIcon } from '@q-labs/naive-ui-plus'
+import type { MenuOption } from '@q-labs/naive-ui-plus'
 import { BookmarkOutline, CaretDownOutline } from '@vicons/ionicons5'
 
 const menuOptions: MenuOption[] = [

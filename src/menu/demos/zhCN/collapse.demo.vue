@@ -35,8 +35,8 @@
 
 <script lang="ts">
 import { defineComponent, h, ref, Component } from 'vue'
-import { NIcon } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NIcon } from '@q-labs/naive-ui-plus'
+import type { MenuOption } from '@q-labs/naive-ui-plus'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,

@@ -11,7 +11,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
-import { useNotification, NButton } from 'naive-ui'
+import { useNotification, NButton } from '@q-labs/naive-ui-plus'
 
 const NotificationButton = defineComponent({
   setup () {

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
-      "naive-ui": ["./src"]
+      "@q-labs/naive-ui-plus": ["./src"]
     },
     "strict": true,
     "strictNullChecks": true,

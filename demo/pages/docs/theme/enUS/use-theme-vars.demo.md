@@ -8,7 +8,7 @@ Naive UI provides `useThemeVars`. It contains common theme variables.
 
 ```js
 import { defineComponent } from 'vue'
-import { useThemeVars } from 'naive-ui'
+import { useThemeVars } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

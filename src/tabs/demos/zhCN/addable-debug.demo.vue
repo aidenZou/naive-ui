@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { NTabs, NTab } from 'naive-ui'
+import { NTabs, NTab } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   name: 'App',

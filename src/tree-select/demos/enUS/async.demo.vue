@@ -37,7 +37,7 @@ Use `on-load` callback to load data. When loading async, all nodes with `isLeaf`
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { TreeSelectOption } from 'naive-ui'
+import { TreeSelectOption } from '@q-labs/naive-ui-plus'
 
 function getChildren (option: TreeSelectOption) {
   const children = []

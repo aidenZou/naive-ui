@@ -17,7 +17,7 @@
 
 <script>
   import { defineComponent } from 'vue'
-  import { NButton } from 'naive-ui'
+  import { NButton } from '@q-labs/naive-ui-plus'
 
   export default defineComponent({
     components: {
@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-  import { NButton } from 'naive-ui'
+  import { NButton } from '@q-labs/naive-ui-plus'
 </script>
 ```
 
@@ -49,7 +49,7 @@
 
 ```js
 import { createApp } from 'vue'
-import naive from 'naive-ui'
+import naive from '@q-labs/naive-ui-plus'
 
 const app = createApp(App)
 app.use(naive)

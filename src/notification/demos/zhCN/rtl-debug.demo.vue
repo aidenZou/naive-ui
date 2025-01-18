@@ -21,7 +21,7 @@ import {
   NButton,
   NAvatar,
   unstableNotificationRtl
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 
 const NotificationButton = defineComponent({
   setup () {

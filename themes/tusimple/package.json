@@ -4,7 +4,7 @@
   "module": "es/index.js",
   "version": "0.2.0",
   "peerDependencies": {
-    "naive-ui": "^2.24.6"
+    "@q-labs/naive-ui-plus": "^2.24.6"
   },
   "author": "07akioni",
   "license": "MIT",

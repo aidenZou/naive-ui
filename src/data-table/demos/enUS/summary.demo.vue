@@ -10,7 +10,7 @@ Use `summary` prop to render summary.
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import type { DataTableColumns, DataTableCreateSummary } from 'naive-ui'
+import type { DataTableColumns, DataTableCreateSummary } from '@q-labs/naive-ui-plus'
 
 type RowData = {
   key: number

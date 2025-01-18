@@ -28,7 +28,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { SelectFilter } from 'naive-ui'
+import { SelectFilter } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

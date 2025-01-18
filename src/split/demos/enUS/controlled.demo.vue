@@ -24,7 +24,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { NSplit, NInputNumber } from 'naive-ui'
+import { NSplit, NInputNumber } from '@q-labs/naive-ui-plus'
 
 const split = ref<number>(0.8)
 </script>

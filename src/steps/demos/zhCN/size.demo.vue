@@ -66,7 +66,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { MdArrowRoundBack, MdArrowRoundForward } from '@vicons/ionicons4'
-import { StepsProps } from 'naive-ui'
+import { StepsProps } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   components: {

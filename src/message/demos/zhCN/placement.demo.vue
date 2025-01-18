@@ -10,8 +10,8 @@
 
 <script lang="ts">
 import { defineComponent, h, ref, VNode } from 'vue'
-import { useMessage, NButton } from 'naive-ui'
-import type { MessageProviderProps } from 'naive-ui'
+import { useMessage, NButton } from '@q-labs/naive-ui-plus'
+import type { MessageProviderProps } from '@q-labs/naive-ui-plus'
 
 interface Item {
   placement: MessageProviderProps['placement']

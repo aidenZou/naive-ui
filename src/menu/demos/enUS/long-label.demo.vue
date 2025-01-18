@@ -10,8 +10,8 @@ Set `label` to render function that renders `n-ellipsis`.
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NEllipsis } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NEllipsis } from '@q-labs/naive-ui-plus'
+import type { MenuOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

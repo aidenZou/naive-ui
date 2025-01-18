@@ -15,8 +15,8 @@ Only support leaf nodes.
 
 <script lang="ts">
 import { h, defineComponent } from 'vue'
-import { NButton, useMessage } from 'naive-ui'
-import type { DataTableColumns } from 'naive-ui'
+import { NButton, useMessage } from '@q-labs/naive-ui-plus'
+import type { DataTableColumns } from '@q-labs/naive-ui-plus'
 
 type Song = {
   no: number

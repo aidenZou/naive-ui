@@ -22,8 +22,8 @@ User `custom-request` to customize upload request.
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { lyla } from '@lylajs/web'
-import { useMessage } from 'naive-ui'
-import type { UploadCustomRequestOptions } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
+import type { UploadCustomRequestOptions } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

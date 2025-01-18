@@ -11,11 +11,11 @@ For more info about theming, see [Customizing Theme](customize-theme).
 ```html
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider, NInput, NDatePicker, NSpace } from 'naive-ui'
+  import { NConfigProvider, NInput, NDatePicker, NSpace } from '@q-labs/naive-ui-plus'
   // theme
-  import { createTheme, inputDark, datePickerDark } from 'naive-ui'
+  import { createTheme, inputDark, datePickerDark } from '@q-labs/naive-ui-plus'
   // locale & dateLocale
-  import { zhCN, dateZhCN } from 'naive-ui'
+  import { zhCN, dateZhCN } from '@q-labs/naive-ui-plus'
 
   export default defineComponent({
     components: {
@@ -72,7 +72,7 @@ export default defineConfig({
       imports: [
         'vue',
         {
-          'naive-ui': [
+          '@q-labs/naive-ui-plus': [
             'useDialog',
             'useMessage',
             'useNotification',
@@ -97,7 +97,7 @@ import {
   create,
   // component
   NButton
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 
 const naive = create({
   components: [NButton]

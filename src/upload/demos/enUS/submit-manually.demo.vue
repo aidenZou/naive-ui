@@ -25,7 +25,7 @@ You can use a `ref` to get a handle on files uploaded, and the `submit` method t
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { UploadInst, UploadFileInfo } from 'naive-ui'
+import type { UploadInst, UploadFileInfo } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

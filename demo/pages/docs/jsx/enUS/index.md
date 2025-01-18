@@ -12,7 +12,7 @@ We recommend importing components directly when using JSX.
 
 ```js
 import { defineComponent } from 'vue'
-import { NButton } from 'naive-ui'
+import { NButton } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   render () {

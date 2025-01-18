@@ -20,7 +20,7 @@ Why make the `update:value` event an example? Because there's so little to write
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage, SelectOption } from 'naive-ui'
+import { useMessage, SelectOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

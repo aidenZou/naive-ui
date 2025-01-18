@@ -18,7 +18,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { useLoadingBar } from 'naive-ui'
+import { useLoadingBar } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

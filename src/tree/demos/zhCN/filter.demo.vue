@@ -26,7 +26,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { TreeOption } from 'naive-ui'
+import { TreeOption } from '@q-labs/naive-ui-plus'
 
 const data: TreeOption[] = [
   {

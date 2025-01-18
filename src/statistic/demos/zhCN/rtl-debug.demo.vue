@@ -31,7 +31,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableStatisticRtl, unstableRowRtl } from 'naive-ui'
+import { unstableStatisticRtl, unstableRowRtl } from '@q-labs/naive-ui-plus'
 import { MdSave } from '@vicons/ionicons4'
 
 export default defineComponent({

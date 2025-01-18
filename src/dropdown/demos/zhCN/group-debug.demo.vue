@@ -17,7 +17,7 @@
 
 <script lang="ts">
 import { h, defineComponent } from 'vue'
-import { NIcon, useMessage } from 'naive-ui'
+import { NIcon, useMessage } from '@q-labs/naive-ui-plus'
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
 
 const options = [

@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { DropdownMenuProps } from 'naive-ui'
+import { DropdownMenuProps } from '@q-labs/naive-ui-plus'
 
 const options = [
   {

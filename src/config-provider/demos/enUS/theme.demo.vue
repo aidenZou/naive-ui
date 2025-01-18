@@ -21,8 +21,8 @@ Set theme of inner components of `n-config-provider`.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { darkTheme } from 'naive-ui'
-import type { GlobalTheme } from 'naive-ui'
+import { darkTheme } from '@q-labs/naive-ui-plus'
+import type { GlobalTheme } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

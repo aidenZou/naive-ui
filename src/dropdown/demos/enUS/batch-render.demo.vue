@@ -19,8 +19,8 @@ Note: the `render-label` will take effect for group type labels, which can be se
 <script lang="ts">
 import { h, defineComponent } from 'vue'
 import type { VNodeChild } from 'vue'
-import { NIcon } from 'naive-ui'
-import type { DropdownOption } from 'naive-ui'
+import { NIcon } from '@q-labs/naive-ui-plus'
+import type { DropdownOption } from '@q-labs/naive-ui-plus'
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
 
 const options = [

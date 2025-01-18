@@ -28,7 +28,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableCardRtl } from 'naive-ui'
+import { unstableCardRtl } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

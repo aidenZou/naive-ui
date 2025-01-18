@@ -44,7 +44,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { changeColor } from 'seemly'
-import { useThemeVars } from 'naive-ui'
+import { useThemeVars } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -17,7 +17,7 @@ The `render-label` can be used to batch render cascader menu options.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { CascaderOption } from 'naive-ui'
+import { CascaderOption } from '@q-labs/naive-ui-plus'
 
 function getOptions (depth = 3, iterator = 1, prefix = '') {
   const length = 12

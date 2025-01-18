@@ -14,7 +14,7 @@ Use `override-default-node-click-behavior` to simulate a file picker (folder is 
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { TreeSelectOverrideNodeClickBehavior } from 'naive-ui'
+import { TreeSelectOverrideNodeClickBehavior } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import { defineComponent, h, VNodeChild } from 'vue'
-import { NIcon, MentionOption } from 'naive-ui'
+import { NIcon, MentionOption } from '@q-labs/naive-ui-plus'
 import { TelescopeOutline } from '@vicons/ionicons5'
 
 export default defineComponent({

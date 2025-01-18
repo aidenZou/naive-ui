@@ -11,8 +11,8 @@ Simple, but practical.
 
 <script lang="ts">
 import { h, defineComponent, ref } from 'vue'
-import { NInput } from 'naive-ui'
-import type { DataTableColumns } from 'naive-ui'
+import { NInput } from '@q-labs/naive-ui-plus'
+import type { DataTableColumns } from '@q-labs/naive-ui-plus'
 
 type RowData = {
   key: number

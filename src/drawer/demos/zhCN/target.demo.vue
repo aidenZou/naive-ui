@@ -52,7 +52,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { DrawerPlacement } from 'naive-ui'
+import { DrawerPlacement } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

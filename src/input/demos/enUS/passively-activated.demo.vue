@@ -37,7 +37,7 @@ If you want to activate the input by pressing enter after it's focused, use `pas
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

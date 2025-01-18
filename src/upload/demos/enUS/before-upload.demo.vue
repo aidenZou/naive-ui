@@ -15,8 +15,8 @@ Use `before-upload` to perform a function before the upload starts (e.g. cancel 
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage } from 'naive-ui'
-import type { UploadFileInfo } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
+import type { UploadFileInfo } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

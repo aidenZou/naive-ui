@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
-import { NTag } from 'naive-ui'
+import { NTag } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

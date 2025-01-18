@@ -30,8 +30,8 @@
 
 <script lang="ts">
 import { h, defineComponent } from 'vue'
-import { NTag, NButton, useMessage } from 'naive-ui'
-import type { DataTableColumns } from 'naive-ui'
+import { NTag, NButton, useMessage } from '@q-labs/naive-ui-plus'
+import type { DataTableColumns } from '@q-labs/naive-ui-plus'
 
 type RowData = {
   key: number

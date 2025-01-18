@@ -11,7 +11,7 @@ Change the property will cause all existing notifications to be cleaned, so plea
 </template>
 
 <script lang="ts">
-import { useNotification } from 'naive-ui'
+import { useNotification } from '@q-labs/naive-ui-plus'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

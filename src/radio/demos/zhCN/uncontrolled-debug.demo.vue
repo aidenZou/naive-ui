@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { useDialog } from 'naive-ui'
+import { useDialog } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

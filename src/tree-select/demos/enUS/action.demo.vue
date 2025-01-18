@@ -18,7 +18,7 @@ Maybe you need to use this slot in the tree selection menu.
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { TreeSelectOption } from 'naive-ui'
+import { TreeSelectOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -1,6 +1,6 @@
 import { h } from 'vue'
 import { CaretUpOutline, CaretDownOutline } from '@vicons/ionicons5'
-import type { DataTableRenderFilter, DataTableRenderSorter } from 'naive-ui'
+import type { DataTableRenderFilter, DataTableRenderSorter } from '@q-labs/naive-ui-plus'
 
 export const renderSorter: DataTableRenderSorter = ({ order }) => {
   const chevronStyle = {

@@ -63,7 +63,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { LayoutInst, LayoutSiderInst } from 'naive-ui'
+import { LayoutInst, LayoutSiderInst } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

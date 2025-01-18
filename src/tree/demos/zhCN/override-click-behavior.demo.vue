@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { TreeOverrideNodeClickBehavior } from 'naive-ui'
+import { TreeOverrideNodeClickBehavior } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

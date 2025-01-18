@@ -84,7 +84,7 @@ import {
   MdSad,
   MdCafe
 } from '@vicons/ionicons4'
-import { StepsProps } from 'naive-ui'
+import { StepsProps } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   components: {

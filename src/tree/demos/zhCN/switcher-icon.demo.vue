@@ -24,7 +24,7 @@
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
 import { repeat } from 'seemly'
-import { NIcon, TreeOption } from 'naive-ui'
+import { NIcon, TreeOption } from '@q-labs/naive-ui-plus'
 import { ChevronForward, SunnyOutline, PlanetOutline } from '@vicons/ionicons5'
 
 function createData (level = 4, baseKey = ''): TreeOption[] | undefined {

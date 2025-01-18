@@ -383,7 +383,7 @@
 <script lang="ts">
 import { LogInOutline, CashOutline } from '@vicons/ionicons5'
 import { defineComponent, ref } from 'vue'
-import { unstableButtonGroupRtl, unstableButtonRtl } from 'naive-ui'
+import { unstableButtonGroupRtl, unstableButtonRtl } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   components: {

@@ -8,7 +8,7 @@ import {
   dateEnUS,
   dateZhCN,
   useOsTheme
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 import { TsConfigProvider } from '../../themes/tusimple/src'
 import { i18n, useIsMobile } from '../utils/composables'
 import {

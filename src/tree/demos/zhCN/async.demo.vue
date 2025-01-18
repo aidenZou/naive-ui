@@ -42,7 +42,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { TreeDropInfo, TreeOption } from 'naive-ui'
+import { TreeDropInfo, TreeOption } from '@q-labs/naive-ui-plus'
 
 function createData () {
   return [

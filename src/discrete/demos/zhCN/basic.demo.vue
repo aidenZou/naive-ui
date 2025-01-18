@@ -34,7 +34,7 @@ import {
   ConfigProviderProps,
   darkTheme,
   lightTheme
-} from 'naive-ui'
+} from '@q-labs/naive-ui-plus'
 
 const themeRef = ref<'light' | 'dark'>('light')
 const configProviderPropsRef = computed<ConfigProviderProps>(() => ({

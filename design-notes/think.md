@@ -244,7 +244,7 @@ style overrides RFC
 
 ```js
 // no import on demand
-import naive from 'naive-ui'
+import naive from '@q-labs/naive-ui-plus'
 
 naive.Button.overrideStyles({
   light: {
@@ -459,7 +459,7 @@ How I want to use styling API ?
 ```js
 // index.js
 import { createApp } from 'vue'
-import { create, enUS, buttonLight, inputLight } from 'naive-ui'
+import { create, enUS, buttonLight, inputLight } from '@q-labs/naive-ui-plus'
 
 const app = createApp()
 const naive = create({

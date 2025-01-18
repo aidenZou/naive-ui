@@ -12,7 +12,7 @@
 
 <script lang="ts">
 import { defineComponent, h, Component } from 'vue'
-import { NButton, NIcon, useMessage, MenuOption } from 'naive-ui'
+import { NButton, NIcon, useMessage, MenuOption } from '@q-labs/naive-ui-plus'
 import { BookOutline as BookIcon } from '@vicons/ionicons5'
 
 function renderIcon (icon: Component) {

@@ -17,7 +17,7 @@
 
 ```js
 import { defineComponent } from 'vue'
-import { useDialog } from 'naive-ui'
+import { useDialog } from '@q-labs/naive-ui-plus'
 
 // content
 export default defineComponent({

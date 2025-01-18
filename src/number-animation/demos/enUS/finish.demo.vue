@@ -20,7 +20,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { NumberAnimationInst, useMessage } from 'naive-ui'
+import { NumberAnimationInst, useMessage } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

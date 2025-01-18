@@ -17,7 +17,7 @@
 
 ```js
 import { defineComponent } from 'vue'
-import { useLoadingBar } from 'naive-ui'
+import { useLoadingBar } from '@q-labs/naive-ui-plus'
 
 // content
 export default defineComponent({

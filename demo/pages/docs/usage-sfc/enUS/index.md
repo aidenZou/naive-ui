@@ -17,7 +17,7 @@ If you want to know how to import themes and locales, please see [Import on Dema
 
 <script>
   import { defineComponent } from 'vue'
-  import { NButton } from 'naive-ui'
+  import { NButton } from '@q-labs/naive-ui-plus'
 
   export default defineComponent({
     components: {
@@ -35,7 +35,7 @@ If you can use vue setup script, you can use it like this.
 </template>
 
 <script setup>
-  import { NButton } from 'naive-ui'
+  import { NButton } from '@q-labs/naive-ui-plus'
 </script>
 ```
 
@@ -49,7 +49,7 @@ If you want to install globally but don't want all components, please see [Impor
 
 ```js
 import { createApp } from 'vue'
-import naive from 'naive-ui'
+import naive from '@q-labs/naive-ui-plus'
 
 const app = createApp(App)
 app.use(naive)

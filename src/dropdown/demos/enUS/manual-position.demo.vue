@@ -25,7 +25,7 @@ Warning: when manually positioned, the `trigger` prop must be set to `'manual'`.
 
 <script lang="ts">
 import { defineComponent, ref, nextTick } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
 
 const options = [
   {

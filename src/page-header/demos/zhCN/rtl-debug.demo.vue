@@ -63,7 +63,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstablePageHeaderRtl, useMessage } from 'naive-ui'
+import { unstablePageHeaderRtl, useMessage } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

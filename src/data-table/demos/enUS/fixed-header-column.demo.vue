@@ -16,7 +16,7 @@ Note that: If you have set fixed column, you should also set `scroll-x`.
 
 <script lang="ts">
 import { h, defineComponent } from 'vue'
-import type { DataTableColumns } from 'naive-ui'
+import type { DataTableColumns } from '@q-labs/naive-ui-plus'
 
 type RowData = {
   key: number

@@ -15,8 +15,8 @@ You can change a file's properties after its upload has finished.
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage } from 'naive-ui'
-import type { UploadFileInfo } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
+import type { UploadFileInfo } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

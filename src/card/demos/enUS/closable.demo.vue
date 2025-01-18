@@ -12,7 +12,7 @@ You may need this when using it in a modal.
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

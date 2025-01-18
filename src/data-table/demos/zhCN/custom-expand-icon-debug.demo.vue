@@ -13,8 +13,8 @@
 
 <script lang="ts">
 import { h, defineComponent } from 'vue'
-import type { DataTableColumns } from 'naive-ui'
-import { NIcon } from 'naive-ui'
+import type { DataTableColumns } from '@q-labs/naive-ui-plus'
+import { NIcon } from '@q-labs/naive-ui-plus'
 import { ArrowForward } from '@vicons/ionicons5'
 
 type RowData = {

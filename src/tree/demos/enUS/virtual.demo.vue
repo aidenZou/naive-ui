@@ -34,7 +34,7 @@ Set `virtual-scroll` to use virtual scroll. Note that you should set the height 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { repeat } from 'seemly'
-import { TreeOption, TreeInst } from 'naive-ui'
+import { TreeOption, TreeInst } from '@q-labs/naive-ui-plus'
 
 function createData (level = 4, baseKey = ''): TreeOption[] | undefined {
   if (!level) return undefined

@@ -6,7 +6,7 @@ import {
   toRef,
   watch
 } from 'vue'
-import { NConfigProvider, configProviderProps } from 'naive-ui'
+import { NConfigProvider, configProviderProps } from '@q-labs/naive-ui-plus'
 import { merge } from 'lodash-es'
 import { renderFilter, renderSorter } from './data-table'
 import { unconfigurableStyle, mountSvgDefs } from './unconfigurable-style-light'

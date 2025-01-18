@@ -18,7 +18,7 @@ For example:
 ```
 
 ```js
-import { useMessage } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
 import { defineComponent } from 'vue'
 
 // content
@@ -155,7 +155,7 @@ Use [createDiscreteApi](discrete). If you want to use it, read its caveat carefu
 <template>...</template>
 
 <script>
-  import { useMessage } from 'naive-ui'
+  import { useMessage } from '@q-labs/naive-ui-plus'
   import { defineComponent } from 'vue'
 
   // content

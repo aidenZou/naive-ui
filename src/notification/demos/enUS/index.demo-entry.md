@@ -20,7 +20,7 @@ For example:
 
 ```js
 import { defineComponent } from 'vue'
-import { useNotification } from 'naive-ui'
+import { useNotification } from '@q-labs/naive-ui-plus'
 
 // content
 export default defineComponent({

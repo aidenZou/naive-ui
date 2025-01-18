@@ -15,7 +15,7 @@ Use `render-label` to customize label rendering.
 
 <script lang="ts">
 import { defineComponent, ref, computed, h, VNodeChild } from 'vue'
-import { SelectOption, NTag } from 'naive-ui'
+import { SelectOption, NTag } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

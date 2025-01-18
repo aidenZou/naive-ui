@@ -34,7 +34,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { MenuInst } from 'naive-ui'
+import { MenuInst } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

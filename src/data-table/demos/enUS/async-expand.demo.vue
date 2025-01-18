@@ -16,7 +16,7 @@ Change data in `onLoad` prop.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { DataTableColumns } from 'naive-ui'
+import { DataTableColumns } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

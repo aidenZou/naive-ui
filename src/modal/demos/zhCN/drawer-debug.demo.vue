@@ -209,7 +209,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { FormRules } from 'naive-ui'
+import { FormRules } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   data () {

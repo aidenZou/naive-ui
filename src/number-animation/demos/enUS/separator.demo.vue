@@ -21,7 +21,7 @@ The number is too large to count the digits.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { NumberAnimationInst } from 'naive-ui'
+import { NumberAnimationInst } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

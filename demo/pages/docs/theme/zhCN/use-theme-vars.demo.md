@@ -8,7 +8,7 @@ Naive UI 提供 `useThemeVars`，它包含了常见的主题变量。
 
 ```js
 import { defineComponent } from 'vue'
-import { useThemeVars } from 'naive-ui'
+import { useThemeVars } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

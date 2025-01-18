@@ -207,8 +207,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage } from 'naive-ui'
-import type { FormInst, FormProps, FormRules } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
+import type { FormInst, FormProps, FormRules } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

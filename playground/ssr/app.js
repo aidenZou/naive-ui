@@ -1,5 +1,5 @@
 import { h, defineComponent, ref } from 'vue'
-import { NButton } from 'naive-ui'
+import { NButton } from '@q-labs/naive-ui-plus'
 
 const App = defineComponent({
   setup () {

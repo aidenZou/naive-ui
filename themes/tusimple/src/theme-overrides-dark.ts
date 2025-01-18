@@ -1,6 +1,6 @@
 import { composite } from 'seemly'
-import type { GlobalThemeOverrides } from 'naive-ui'
-import { commonDark } from 'naive-ui'
+import type { GlobalThemeOverrides } from '@q-labs/naive-ui-plus'
+import { commonDark } from '@q-labs/naive-ui-plus'
 import vars from './vars'
 
 function createHoverColor (color: string, overlayAlpha: number = 0.15): string {

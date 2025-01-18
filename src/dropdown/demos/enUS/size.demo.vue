@@ -47,7 +47,7 @@ A dropdown has different sizes.
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
 
 const options = [
   {

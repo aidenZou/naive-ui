@@ -115,7 +115,7 @@
 <script lang="ts">
 import { defineComponent, computed, ref } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
-import { useMessage, version } from 'naive-ui'
+import { useMessage, version } from '@q-labs/naive-ui-plus'
 import { MenuOutline } from '@vicons/ionicons5'
 import { repoUrl } from './utils/github-url'
 import { i18n, useIsMobile, useIsTablet } from './utils/composables'

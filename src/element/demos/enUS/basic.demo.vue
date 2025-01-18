@@ -31,7 +31,7 @@ You can use CSS variables from it. If you need to use those variables in JS, ple
 </template>
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

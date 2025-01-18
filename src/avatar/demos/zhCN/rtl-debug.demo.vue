@@ -31,7 +31,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableAvatarGroupRtl, unstableSpaceRtl } from 'naive-ui'
+import { unstableAvatarGroupRtl, unstableSpaceRtl } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -19,7 +19,7 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { useModal, useMessage, NButton } from 'naive-ui'
+import { useModal, useMessage, NButton } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -33,7 +33,7 @@ Set the way to display selected nodes when parents and children are selected. `a
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { TreeSelectOption } from 'naive-ui'
+import { TreeSelectOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

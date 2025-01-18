@@ -10,7 +10,7 @@ Use the `render-option` property to control rendering of the entire option.
 
 <script lang="ts">
 import { defineComponent, h, ref, VNode } from 'vue'
-import { NTooltip, SelectOption } from 'naive-ui'
+import { NTooltip, SelectOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

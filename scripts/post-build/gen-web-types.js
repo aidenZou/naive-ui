@@ -15,7 +15,7 @@ exports.genWebTypes = function genWebTypes () {
     $schema:
       'https://raw.githubusercontent.com/JetBrains/web-types/master/schema/web-types.json',
     framework: 'vue',
-    name: 'naive-ui',
+    name: '@q-labs/naive-ui-plus',
     version,
     'js-types-syntax': 'typescript',
     contributions: {

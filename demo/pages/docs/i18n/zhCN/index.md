@@ -21,8 +21,8 @@ Naive-ui 通过使用 `n-config-provider` 调整语言，默认情况下所有�
 
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider } from 'naive-ui'
-  import { zhCN, dateZhCN } from 'naive-ui'
+  import { NConfigProvider } from '@q-labs/naive-ui-plus'
+  import { zhCN, dateZhCN } from '@q-labs/naive-ui-plus'
 
   export default defineComponent({
     components: {
@@ -86,8 +86,8 @@ Naive-ui 通过使用 `n-config-provider` 调整语言，默认情况下所有�
 
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider, createLocale, zhCN } from 'naive-ui'
-  import { zhCN, dateZhCN } from 'naive-ui'
+  import { NConfigProvider, createLocale, zhCN } from '@q-labs/naive-ui-plus'
+  import { zhCN, dateZhCN } from '@q-labs/naive-ui-plus'
 
   const customizedLocale = createLocale(
     {

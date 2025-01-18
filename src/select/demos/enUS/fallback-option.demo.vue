@@ -31,7 +31,7 @@ If you don't need fallback options, setting `fallback-option` to `false` ensures
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { SelectOption } from 'naive-ui'
+import { SelectOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

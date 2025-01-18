@@ -15,7 +15,7 @@ You can customize the toolbar using `render-toolbar`.
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
 import { OpenOutline, ClipboardOutline } from '@vicons/ionicons5'
-import { useMessage, ImageRenderToolbarProps, NButton } from 'naive-ui'
+import { useMessage, ImageRenderToolbarProps, NButton } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

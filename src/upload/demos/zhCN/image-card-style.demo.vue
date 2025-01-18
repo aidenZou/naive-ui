@@ -31,7 +31,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { UploadFileInfo } from 'naive-ui'
+import { UploadFileInfo } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

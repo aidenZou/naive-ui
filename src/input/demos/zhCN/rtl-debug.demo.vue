@@ -21,7 +21,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableInputRtl } from 'naive-ui'
+import { unstableInputRtl } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

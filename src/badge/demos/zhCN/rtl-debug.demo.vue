@@ -21,7 +21,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableBadgeRtl } from 'naive-ui'
+import { unstableBadgeRtl } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

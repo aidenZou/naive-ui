@@ -26,7 +26,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { NScrollbar, NTree, TreeOption } from 'naive-ui'
+import { NScrollbar, NTree, TreeOption } from '@q-labs/naive-ui-plus'
 
 function createData (level = 10): TreeOption[] {
   if (!level) return []

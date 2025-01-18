@@ -26,7 +26,7 @@ Various data would come from backend.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { SelectOption, SelectGroupOption } from 'naive-ui'
+import { SelectOption, SelectGroupOption } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

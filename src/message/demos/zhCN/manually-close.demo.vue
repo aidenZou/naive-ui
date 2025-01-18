@@ -15,8 +15,8 @@
 
 <script lang="ts">
 import { defineComponent, onBeforeUnmount } from 'vue'
-import { useMessage } from 'naive-ui'
-import type { MessageReactive } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
+import type { MessageReactive } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

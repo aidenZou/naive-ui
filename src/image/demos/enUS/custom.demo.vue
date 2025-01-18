@@ -21,7 +21,7 @@ The default style of toolbar may not meet your demand, let's make some configura
 
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
-import { GlobalThemeOverrides, useThemeVars } from 'naive-ui'
+import { GlobalThemeOverrides, useThemeVars } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

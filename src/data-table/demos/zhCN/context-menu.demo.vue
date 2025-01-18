@@ -20,7 +20,7 @@
 
 <script lang="ts">
 import { defineComponent, h, ref, nextTick } from 'vue'
-import { DataTableColumns, DropdownOption, useMessage } from 'naive-ui'
+import { DataTableColumns, DropdownOption, useMessage } from '@q-labs/naive-ui-plus'
 
 type Song = {
   no: number

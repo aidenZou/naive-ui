@@ -21,8 +21,8 @@ Set `n-config-provider`'s `date-locale` prop to `dateEnUS` imported from naive-u
 
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider } from 'naive-ui'
-  import { enUS, dateEnUS } from 'naive-ui'
+  import { NConfigProvider } from '@q-labs/naive-ui-plus'
+  import { enUS, dateEnUS } from '@q-labs/naive-ui-plus'
 
   export default defineComponent({
     components: {
@@ -86,8 +86,8 @@ You can use `createLocale` to customize the existing locale.
 
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider, createLocale, enUS } from 'naive-ui'
-  import { enUS, dateEnUS } from 'naive-ui'
+  import { NConfigProvider, createLocale, enUS } from '@q-labs/naive-ui-plus'
+  import { enUS, dateEnUS } from '@q-labs/naive-ui-plus'
 
   const customizedLocale = createLocale(
     {

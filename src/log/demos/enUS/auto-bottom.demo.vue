@@ -15,7 +15,7 @@ Scroll to the latest when log is gradually increasing.
 
 <script lang="ts">
 import { defineComponent, ref, watchEffect, onMounted, nextTick } from 'vue'
-import { LogInst } from 'naive-ui'
+import { LogInst } from '@q-labs/naive-ui-plus'
 
 function log () {
   const l: string[] = []

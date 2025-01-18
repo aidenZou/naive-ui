@@ -23,7 +23,7 @@ If `theme` is `undefined` it won't affect the theme of components inside.
 
 <script>
   import { defineComponent } from 'vue'
-  import { darkTheme } from 'naive-ui'
+  import { darkTheme } from '@q-labs/naive-ui-plus'
 
   export default defineComponent({
     setup() {
@@ -51,11 +51,11 @@ You can modify the corresponding theme variable, you can get the themeOverrides 
 
 ```html
 <script>
-  import { NConfigProvider } from 'naive-ui'
+  import { NConfigProvider } from '@q-labs/naive-ui-plus'
 
   /**
    * Use this for type hints under js file
-   * @type import('naive-ui').GlobalThemeOverrides
+   * @type import('@q-labs/naive-ui-plus').GlobalThemeOverrides
    */
   const themeOverrides = {
     common: {
@@ -90,7 +90,7 @@ If you are using ts to write code, this one is more suitable for you.
 
 ```html
 <script lang="ts">
-  import { NConfigProvider, GlobalThemeOverrides } from 'naive-ui'
+  import { NConfigProvider, GlobalThemeOverrides } from '@q-labs/naive-ui-plus'
 
   const themeOverrides: GlobalThemeOverrides = {
     common: {
@@ -117,7 +117,7 @@ The use of component theme variables is the same as the use of global theme vari
 
 ```html
 <script lang="ts">
-  import { SelectProps, ButtonProps } from 'naive-ui'
+  import { SelectProps, ButtonProps } from '@q-labs/naive-ui-plus'
 
   type SelectThemeOverrides = NonNullable<SelectProps['themeOverrides']>
   type ButtonThemeOverrides = NonNullable<ButtonProps['themeOverrides']>
@@ -156,10 +156,10 @@ If you want to use different theme variables on light and dark theme at the same
 
 ```html
 <script>
-  import { NConfigProvider, darkTheme } from 'naive-ui'
+  import { NConfigProvider, darkTheme } from '@q-labs/naive-ui-plus'
 
   /**
-   * @type import('naive-ui').GlobalThemeOverrides
+   * @type import('@q-labs/naive-ui-plus').GlobalThemeOverrides
    */
   const lightThemeOverrides = {
     common: {
@@ -199,7 +199,7 @@ The specific available peers will be updated later.
 
 ```html
 <script lang="ts">
-  import { NConfigProvider, GlobalThemeOverrides } from 'naive-ui'
+  import { NConfigProvider, GlobalThemeOverrides } from '@q-labs/naive-ui-plus'
 
   const themeOverrides: GlobalThemeOverrides = {
     Select: {
@@ -268,7 +268,7 @@ The theme editor is not included in global installation (`app.use(naive)`). You 
 
 <script>
   import { defineComponent } from 'vue'
-  import { NThemeEditor } from 'naive-ui'
+  import { NThemeEditor } from '@q-labs/naive-ui-plus'
 
   export default defineComponent({
     components: {

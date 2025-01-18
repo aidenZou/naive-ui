@@ -40,7 +40,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableScrollbarRtl } from 'naive-ui'
+import { unstableScrollbarRtl } from '@q-labs/naive-ui-plus'
 
 export default defineComponent({
   setup () {

@@ -92,7 +92,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { version } from 'naive-ui'
+import { version } from '@q-labs/naive-ui-plus'
 import { i18n } from '../../utils/composables'
 import { push } from '../../store'
 import { repoUrl } from '../../utils/github-url'

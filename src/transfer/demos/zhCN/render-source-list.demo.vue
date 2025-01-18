@@ -15,7 +15,7 @@
 <script lang="ts">
 import { defineComponent, ref, h } from 'vue'
 import { repeat } from 'seemly'
-import { NTree, TransferRenderSourceList } from 'naive-ui'
+import { NTree, TransferRenderSourceList } from '@q-labs/naive-ui-plus'
 
 function createLabel (level: number): string {
   if (level === 4) return '道生一'

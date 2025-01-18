@@ -10,7 +10,7 @@ Handle events of buttons.
   </n-button>
 </template>
 <script setup lang="ts">
-import { useMessage } from 'naive-ui'
+import { useMessage } from '@q-labs/naive-ui-plus'
 
 const message = useMessage()
 const handleClick = () => {

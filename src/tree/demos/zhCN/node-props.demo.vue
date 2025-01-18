@@ -26,7 +26,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { repeat } from 'seemly'
-import { TreeOption, useMessage, DropdownOption } from 'naive-ui'
+import { TreeOption, useMessage, DropdownOption } from '@q-labs/naive-ui-plus'
 
 function createData (level = 4, baseKey = ''): TreeOption[] | undefined {
   if (!level) return undefined
