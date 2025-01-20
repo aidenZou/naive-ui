@@ -1,6 +1,6 @@
 {
   "name": "@q-labs/naive-ui-plus",
-  "version": "2.38.2",
+  "version": "0.101.2382",
   "description": "A Vue 3 Component Library. Fairly Complete, Theme Customizable, Uses TypeScript, Fast",
   "main": "lib/index.js",
   "module": "es/index.mjs",
