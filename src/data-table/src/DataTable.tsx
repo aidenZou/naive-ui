@@ -10,6 +10,7 @@ import {
   watchEffect
 } from 'vue'
 import { createId } from 'seemly'
+import { isUndefined } from 'lodash-es'
 import {
   useConfig,
   useRtl,
@@ -30,7 +31,8 @@ import type {
   RowKey,
   MainTableRef,
   DataTableInst,
-  CsvOptionsType
+  CsvOptionsType,
+  TableBaseColumn
 } from './interface'
 import { dataTableInjectionKey, dataTableProps } from './interface'
 import { useGroupHeader } from './use-group-header'
@@ -82,8 +84,32 @@ export default defineComponent({
       mergedBorderedRef,
       mergedClsPrefixRef,
       inlineThemeDisabled,
-      mergedRtlRef
+      mergedRtlRef,
+      defaultDataTableColumnResizable
     } = useConfig(props)
+
+    if ((props.columns || []).length > 0) {
+      props.columns.forEach((column) => {
+        if (!defaultDataTableColumnResizable && !column.resizable) {
+          return
+        }
+
+        if (['action'].includes((column as TableBaseColumn).key as string)) {
+          return
+        }
+
+        column.resizable = true
+
+        if (isUndefined(column.minWidth)) {
+          column.minWidth = '80px'
+        }
+
+        if (isUndefined(column.maxWidth)) {
+          column.maxWidth = '800px'
+        }
+      })
+    }
+
     const rtlEnabledRef = useRtl('DataTable', mergedRtlRef, mergedClsPrefixRef)
     const mergedBottomBorderedRef = computed(() => {
       const { bottomBordered } = props
