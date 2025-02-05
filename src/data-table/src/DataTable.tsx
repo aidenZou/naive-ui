@@ -10,7 +10,7 @@ import {
   watchEffect
 } from 'vue'
 import { createId } from 'seemly'
-import { isUndefined } from 'lodash-es'
+import { isNil, isUndefined } from 'lodash-es'
 import {
   useConfig,
   useRtl,
@@ -90,22 +90,31 @@ export default defineComponent({
 
     if ((props.columns || []).length > 0) {
       props.columns.forEach((column) => {
-        if (!defaultDataTableColumnResizable && !column.resizable) {
+        if (column.resizable === false) {
           return
         }
 
-        if (['action'].includes((column as TableBaseColumn).key as string)) {
+        if (!defaultDataTableColumnResizable) {
+          return
+        }
+
+        // fixed
+        if (['left', 'right'].includes((column as TableBaseColumn).fixed as string)) {
           return
         }
 
         column.resizable = true
 
         if (isUndefined(column.minWidth)) {
-          column.minWidth = '80px'
+          if (!isNil(column.width)) {
+            column.minWidth = column.width
+          } else {
+            column.minWidth = 80
+          }
         }
 
         if (isUndefined(column.maxWidth)) {
-          column.maxWidth = '800px'
+          column.maxWidth = 600
         }
       })
     }
