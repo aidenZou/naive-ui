@@ -10,7 +10,7 @@ import {
   watchEffect
 } from 'vue'
 import { createId } from 'seemly'
-import { isNil, isUndefined } from 'lodash-es'
+import { isArray, isNil, isUndefined } from 'lodash-es'
 import {
   useConfig,
   useRtl,
@@ -32,7 +32,9 @@ import type {
   MainTableRef,
   DataTableInst,
   CsvOptionsType,
-  TableBaseColumn
+  TableBaseColumn,
+  TableColumn,
+  TableColumnGroup
 } from './interface'
 import { dataTableInjectionKey, dataTableProps } from './interface'
 import { useGroupHeader } from './use-group-header'
@@ -88,33 +90,47 @@ export default defineComponent({
       defaultDataTableColumnResizable
     } = useConfig(props)
 
+    const setColumn = (column: TableColumn<any>): void => {
+      if (column.resizable === false) {
+        return
+      }
+
+      if (!defaultDataTableColumnResizable) {
+        return
+      }
+
+      // fixed
+      if (['left', 'right'].includes((column as TableBaseColumn).fixed as string)) {
+        return
+      }
+
+      column.resizable = true
+
+      if (isUndefined(column.minWidth)) {
+        if (!isNil(column.width)) {
+          column.minWidth = column.width
+        } else {
+          column.minWidth = 80
+        }
+      }
+
+      if (isUndefined(column.maxWidth)) {
+        column.maxWidth = 600
+      }
+    }
+
     if ((props.columns || []).length > 0) {
       props.columns.forEach((column) => {
-        if (column.resizable === false) {
-          return
-        }
+        // console.warn('[data-table]', column)
 
-        if (!defaultDataTableColumnResizable) {
-          return
-        }
+        const _children = (column as TableColumnGroup).children
 
-        // fixed
-        if (['left', 'right'].includes((column as TableBaseColumn).fixed as string)) {
-          return
-        }
-
-        column.resizable = true
-
-        if (isUndefined(column.minWidth)) {
-          if (!isNil(column.width)) {
-            column.minWidth = column.width
-          } else {
-            column.minWidth = 80
-          }
-        }
-
-        if (isUndefined(column.maxWidth)) {
-          column.maxWidth = 600
+        if (isArray(_children) && _children.length > 0) {
+          _children.forEach((_column) => {
+            setColumn(_column)
+          })
+        } else {
+          setColumn(column)
         }
       })
     }
