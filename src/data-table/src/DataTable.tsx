@@ -10,7 +10,6 @@ import {
   watchEffect
 } from 'vue'
 import { createId } from 'seemly'
-import { isArray, isNil, isUndefined } from 'lodash-es'
 import {
   useConfig,
   useRtl,
@@ -31,10 +30,7 @@ import type {
   RowKey,
   MainTableRef,
   DataTableInst,
-  CsvOptionsType,
-  TableBaseColumn,
-  TableColumn,
-  TableColumnGroup
+  CsvOptionsType
 } from './interface'
 import { dataTableInjectionKey, dataTableProps } from './interface'
 import { useGroupHeader } from './use-group-header'
@@ -86,55 +82,8 @@ export default defineComponent({
       mergedBorderedRef,
       mergedClsPrefixRef,
       inlineThemeDisabled,
-      mergedRtlRef,
-      defaultDataTableColumnResizable
+      mergedRtlRef
     } = useConfig(props)
-
-    const setColumn = (column: TableColumn<any>): void => {
-      if (column.resizable === false) {
-        return
-      }
-
-      if (!defaultDataTableColumnResizable) {
-        return
-      }
-
-      // fixed
-      if (['left', 'right'].includes((column as TableBaseColumn).fixed as string)) {
-        return
-      }
-
-      column.resizable = true
-
-      if (isUndefined(column.minWidth)) {
-        if (!isNil(column.width)) {
-          column.minWidth = column.width
-        } else {
-          column.minWidth = 80
-        }
-      }
-
-      if (isUndefined(column.maxWidth)) {
-        column.maxWidth = 600
-      }
-    }
-
-    if ((props.columns || []).length > 0) {
-      props.columns.forEach((column) => {
-        // console.warn('[data-table]', column)
-
-        const _children = (column as TableColumnGroup).children
-
-        if (isArray(_children) && _children.length > 0) {
-          _children.forEach((_column) => {
-            setColumn(_column)
-          })
-        } else {
-          setColumn(column)
-        }
-      })
-    }
-
     const rtlEnabledRef = useRtl('DataTable', mergedRtlRef, mergedClsPrefixRef)
     const mergedBottomBorderedRef = computed(() => {
       const { bottomBordered } = props

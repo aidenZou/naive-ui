@@ -1,4 +1,5 @@
-export { default as NDataTable } from './src/DataTable'
+// export { default as NDataTable } from './src/DataTable'
+export { default as NDataTable } from './src/DataTableWrap'
 export { dataTableProps } from './src/interface'
 export type {
   DataTableProps,
